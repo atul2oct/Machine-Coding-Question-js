@@ -1,0 +1,26 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.star-rating {
+    display: flex;
+    cursor: pointer;
+}
+
+.star {
+    color: #ccc;
+    font-size: 2rem;
+    transition: color 1s;
+}
+
+.star.hover, 
+.star.selected {
+    color: #f39c12;
+}
